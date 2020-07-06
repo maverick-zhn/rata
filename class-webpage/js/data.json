@@ -1,0 +1,450 @@
+[
+	{
+         "title": "What are the Unique Challenges and Opportunities in Systems for ML? [Presentation slides]",
+         "anchor": "ml",
+         "href": "docs/at/ml/slides_ml-research-workshop-matei-zaharia.pdf",
+         "author": "Zaharia",
+         "date":   "Stanford, DAWN's Project, 2019"
+        },
+        {
+         "title": "Stanford DAWN",
+         "anchor": "ml",
+         "href": "https://dawn.cs.stanford.edu/",
+         "author": "Zaharia",
+         "date":   "Stanford, DAWN's Project, 2019"
+        },
+	{
+         "title": "Analysis of DAWNBench, a Time-to-Accuracy Machine Learning Performance Benchmark",
+         "anchor": "ml",
+         "href": "docs/at/ml/paper_Analysis_of_DAWNBench.pdf",
+         "author": "Coleman",
+         "date":   "2019"
+        },
+	{
+         "title": "Security and Privacy in Machine Learning [Presentation slides]",
+         "anchor": "at",
+         "href": "docs/at/ml/slides_security_and_privacy_in_machine_learning.pdf",
+         "author": "Papernot",
+         "date":   "Penn State, 2017"
+        },
+	{
+         "title": "Adversarial Machine Learning [Presentation slides]",
+         "anchor": "at",
+         "href": "docs/at/ml/slides_adversarial_machine_learning.pdf",
+         "author": "Jha",
+         "date":   "University of Wisconsin, 2018"
+        },
+	{
+         "title": "Malevolent Machine Learning",
+         "anchor": "at",
+         "href": "docs/at/ml/paper_Malevolent_ML.pdf",
+         "author": "Edwards",
+         "date":   "CACM, 2019"
+        },
+	{
+         "title": "Deep Learning for Entity Matching a design space exploration [PAPER]",
+         "anchor": "er",
+         "href": "docs/at/ml/paper_Deep_Learning_for_Entity_Matching_a_design_space_exploration.pdf",
+         "author": "Mugdal et al.",
+         "date":   "SIGMOD 2018"
+        },
+	{
+         "title": "Deep Learning for Entity Matching a design space exploration [VIDEO]",
+         "anchor": "er",
+         "href": "https://www.youtube.com/watch?v=plaONS-Lr8U",
+         "author": "Mugdal et al.",
+         "date":   "SIGMOD 2018"
+        },
+	{
+         "title": "Entity Matching: How Similar Is Similar [PAPER]",
+         "anchor": "er",
+         "href": "docs/at/ml/paper_Entity_Matching_How_Similar_Is_Similar.pdf",
+         "author": "Wang et al.",
+         "date":   "VLDB, 2011"
+        },
+	{
+         "title": "Why Should I Trust You? Explaining the Predictions of Any Classifier [PAPER]",
+         "anchor": "erex",
+         "href": "docs/at/ml/paper_Why_Should_I_Trust_You.pdf",
+         "author": "Ribeiro et al.",
+         "date":   "KDD, 2016"
+        },
+	{
+         "title": "SVQ: Streaming Video Queries [PAPER]",
+         "anchor": "dm",
+         "href": "docs/at/ml/paper_SVQ.pdf",
+         "author": "Xarchakos and Koudas",
+         "date":   "SIGMOD, 2019"
+        },
+	{
+         "title": "Video Monitoring Queries [PAPER]",
+         "anchor": "dm",
+         "href": "docs/at/ml/paper_Video_Monitoring_Queries.pdf",
+         "author": "Koudas",
+         "date":   "arXiv, 2020"
+        },
+	{
+         "title": "Challenges and Opportunities in DNN-Based Video Analytics: A Demonstration of the BlazeIt Video Query Engine [PAPER]",
+         "anchor": "vp",
+         "href": "docs/at/ml/paper_Challenges_and_Opportunities_in_DNN-Based_Video_Analytics.pdf",
+         "author": "Kang et al.",
+         "date":   "CIDR, 2019"
+        },
+	{
+         "title": "Focus: Querying Large Video Datasets  with Low Latency and Low Cost [PAPER]",
+         "anchor": "vp",
+         "href": "docs/at/ml/paper_Focus.pdf",
+         "author": "Hsieh et al.",
+         "date":   "OSDI, 2018"
+        },
+	{
+         "title": "Situational Knowledge on Demand (REALM)",
+         "anchor": "kg",
+         "href": "docs/kg/bb-skod-overview-nov-2019.pdf",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2019"
+        },
+        {
+         "title": "Knowledge Graphs: An Accessible and Applied Overview",
+         "anchor": "kg",
+         "href": "docs/kg/knowledge-graphs-mayank.pdf",
+         "author": "Kejriwal",
+         "date":   "USC, 2019"
+        },
+        {
+         "title": "Multimodal Data Knowledge Representation for Situational Awareness: Domain-agnostic Approach With Evolving Knowledge Graph",
+         "anchor": "kg",
+         "href": "docs/kg/alina-skod-kg-evolving-kgs.pdf",
+         "author": "Nesen",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Knowledge Graphs Research at USC",
+         "anchor": "kg",
+         "href": "docs/kg/knowledge-graphs-usc-slides.pptx",
+         "author": "Knoblock",
+         "date":   "USC, 2019"
+        },
+        {
+         "title": "Research in Applications for Learning Machines",
+         "anchor": "kg",
+         "href": "docs/kg/red-bharatbhargava-purdue-skod-final.pdf",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2019"
+        },
+        {
+         "title": "SKOD: A Framework for Situational Knowledge on Demand",
+         "anchor": "kg",
+         "href": "docs/kg/vldb-paper-skod-a-framework-for-situation.pdf",
+         "author": "Palacios and Solaiman et al.",
+         "date":   "VLDB Workshop, 2019"
+        },
+        {
+         "title": "Multi-modal Information Retrieval via Joint Embedding",
+         "anchor": "kg",
+         "href": "docs/kg/tech-fest-poster-multimodal-information_retrieval_kma_solaiman.pdf",
+         "author": "Solaiman and Bhargava",
+         "date":   "2019"
+        },
+        {
+         "title": "Adversarial Training",
+         "anchor": "at",
+         "href": "docs/at/adversarial_training.pdf",
+         "author": "Tramer et al.",
+         "date":   "Stanford, 2018"
+        },
+        {
+         "title": "Practical Black-Box Attacks against Machine Learning",
+         "anchor": "at",
+         "href": "docs/at/attacks-against-machine-learning.pdf",
+         "author": "Papernot et al.",
+         "date":   "Penn State, 2017"
+        },
+        {
+         "title": "Vulnerabilities and Threats in Distributed Systems",
+         "anchor": "pr",
+         "href": "docs/pr/vulnerability-paper-bhargava-lilien.pdf",
+         "author": "Bhargava and Lilien",
+         "date":   "Purdue University, 2004"
+        },
+        {
+         "title": "Panorama: A Data System for Unbounded Vocabulary Querying over Video",
+         "anchor": "vp",
+         "href": "docs/vp/query-over-video-panorama-ucsd-vldb19.pdf",
+         "author": "Zhang and Kumar",
+         "date":   "VLDB, 2019"
+        },
+        {
+         "title": "Surveillance Video Querying",
+         "anchor": "vp",
+         "href": "docs/vp/surveillance_video_querying.pdf",
+         "author": "Stonebraker et al.",
+         "date":   "HILDA, 2020"
+        },
+        {
+         "title": "BlazeIt: An Optimizing Query Engine for Video at Scale",
+         "anchor": "vp",
+         "href": "docs/vp/peter-stanford-sysml-blazeit.pdf",
+         "author": "Kang, Bailis, Zaharia",
+         "date":   "Stanford, 2018"
+        },
+        {
+         "title": "BlazeIt: An Optimizing Query Engine for Video at Scale [Georgia Tech Presentation Slides]",
+         "anchor": "vp",
+         "href": "docs/at/ml/slides_blazeit_presentation_slides_georgia_tech.pdf",
+         "author": "Biswal",
+         "date":   "Georgia Tech, 2018"
+        },
+        {
+         "title": "Demonstration of the BlazeIt Visual Query Engine using Specialized Neural Networks",
+         "anchor": "vp",
+         "href": "docs/vp/blazeit-stanford-demo-18.pdf",
+         "author": "Kang, Bailis, Zaharia",
+         "date":   "Stanford, 2019"
+        },
+        {
+         "title": "NoScope: Optimizing Neural Network Queries over Video at Scale",
+         "anchor": "vp",
+         "href": "docs/at/ml/paper_NoScope.pdf",
+         "author": "Kang ",
+         "date":   "VLDB, 2017"
+        },
+	        {
+         "title": "Countering Adversarial AI/ML and Threat Recognition with Deep Learning",
+         "anchor": "at",
+         "href": "docs/at/bhargava-gncrc-presentation-final-revised-apr-29-3pm.pptx",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Toward an End-to-end Anomaly Discovery System",
+         "anchor": "tk",
+         "href": "docs/tk/mit-talk-purdue.pptx",
+         "author": "Cao",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Research in Applications for Learning Machines (REALM) Consortium, SKOD",
+         "anchor": "kg",
+         "href": "docs/kg/ngc-final-slides-march-2-2020.pdf",
+         "author": "Bhargava",
+         "date":   "NGC Presentation, 2020"
+        },
+        {
+         "title": "Automating Collusion Detection in Sequential Games",
+         "anchor": "tk",
+         "href": "docs/tk/vaneet-collusion-games.pdf",
+         "author": "Mazrooei, Archibald, and Bowling",
+         "date":   "Purdue University, 2013"
+        },
+        {
+         "title": "Reinforcement Learning",
+         "anchor": "tk",
+         "href": "docs/tk/vaneet-slides.pptx",
+         "author": "Aggarwal",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Abstract for COVID conference",
+         "anchor": "tk",
+         "href": "docs/co/bhargava-abstract-covid-conference.docx",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Abstract for COVID conference",
+         "anchor": "kg",
+         "href": "docs/co/bhargava-abstract-covid-conference.docx",
+         "author": "Bhargava",
+         "date":   "2020"
+        },
+        {
+         "title": "Covid and AI/ML/DS",
+         "anchor": "tk",
+         "href": "docs/co/covid-ai-ml-ds-bhargava.pptx",
+         "author": "Bhargava",
+         "date":   "Purdue University,2020"
+        },
+        {
+         "title": "Covid and AI/ML/DS",
+         "anchor": "kg",
+         "href": "docs/co/covid-ai-ml-ds-bhargava.pptx",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Learning Machines",
+         "anchor": "kg",
+         "href": "docs/kg/darpa-meeting-learning-machines-sept-10-short-version.pptx",
+         "author": "Bhargava, Singh, Kumar, Stonebraker",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "A Deep Learning Approach for Tweet Classification for Effective Disaster Management",
+         "anchor": "ot",
+         "href": "docs/kg/Madria-tweet-analysis.pdf",
+         "author": "Madria",
+         "date":   "2020"
+        },
+        {
+         "title": "A Deep Learning Approach for Tweet Classification for Effective Disaster Management",
+         "anchor": "tk",
+         "href": "docs/kg/Madria-tweet-analysis.pdf",
+         "author": "Madria",
+         "date":   "2020"
+        },
+	{
+         "title": "Privacy-Preserving Secure Contact Tracing",
+         "anchor": "tk",
+         "href": "docs/co/madhu-venkat-paper-contact-privacy.pdf",
+         "author": "Madhusudan, Ren, Venkatakrishnan",
+         "date":   "2020"
+        },
+        {
+         "title": "Malware Speaks! Deep Learning Based Programming Language Processing for Detecting Evasive Cyberattacks",
+         "anchor": "at",
+         "href": "docs/at/malware-speaks-ccs2020-b-paper467.pdf",
+         "author": "ACM CCS",
+         "date":   "2020"
+        },
+        {
+         "title": "Anomaly Detection and Security Deep Learning Algorithms under Adversarial Situation",
+         "anchor": "at",
+         "href": "docs/at/Miguel-Final-Exam-Final.pptx",
+         "author": "Villarreal-Vasquez, Final Examination Defense - Presentation Slides",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Law and Technology Increasing Automation in Policing",
+         "anchor": "at",
+         "href": "docs/at/ai-policing.pdf",
+         "author": "Joh",
+         "date":   "2020"
+        },
+        {
+         "title": "CoronaVis: A Real-time COVID-19 Tweets Analyzer",
+         "anchor": "tk",
+         "href": "docs/co/madria-tweet-analysis.pdf",
+         "author": "Kabir and Madria",
+         "date":   "2020"
+        },
+	{
+         "title": "ConFoc: Content-Focus Protection Against Trojan Attacks on Neural Networks",
+         "anchor": "at",
+         "href": "docs/at/Miguel_Villarreal-Vasquez_ConFoc_NDSS_Paper.pdf",
+         "author": "Villarreal-Vasquez, NDSS",
+         "date":   "2020"
+        },
+	{
+         "title": "Hunting for Insider Threats Using LSTM-based Anomaly Detection",
+         "anchor": "at",
+         "href": "docs/at/Miguel_Villarreal-Vasquez_LADOHD_TDSC_Paper.pdf",
+         "author": "Villarreal-Vasquez, TDSC",
+         "date":   "2020"
+        },
+	{
+         "title": "Anomaly Detection and Security Deep Learning Methods Under Adversarial Situation",
+         "anchor": "at",
+         "href": "docs/at/Miguel_Villarreal-Vasquez_Thesis_Final.pdf",
+         "author": "Villarreal-Vasquez, Thesis",
+         "date":   "2020"
+        },
+	{
+         "title": "Anomaly Detection and Security Deep Learning Methods Under Adversarial Situation",
+         "anchor": "at",
+         "href": "https://drive.google.com/file/d/18jk0HGV128h8ZUuFG63JdS5zSXxeFLYl/view?usp=sharing",
+         "author": "Villarreal-Vasquez, Defense Video",
+         "date":   "2020"
+        },
+	{
+         "title": "A Snapshot of the Frontiers of Fairness in Machine Learning",
+         "anchor": "at",
+         "href": "docs/at/Fairness_in_ML.pdf",
+         "author": "Chouldechova and Roth",
+         "date":   "2020"
+        },
+	{
+         "title": "A Snapshot of the Frontiers of Fairness in Machine Learning [Video]",
+         "anchor": "at",
+         "href": "https://www.youtube.com/watch?v=ByRLBXjDHlc",
+         "author": "Chouldechova and Roth",
+         "date":   "2020"
+        },
+	{
+         "title": "Techniques for Interpretable Machine Learning",
+         "anchor": "at",
+         "href": "docs/at/Techniques_for_Interpretable_ML.pdf",
+         "author": "Du, Liu, and Hu",
+         "date":   "2020"
+        },
+	{
+         "title": "Techniques for Interpretable Machine Learning [Video]",
+         "anchor": "at",
+         "href": "https://www.youtube.com/watch?v=7BhhABA9zRE",
+         "author": "Du, Liu, and Hu",
+         "date":   "2020"
+        },
+        {
+         "title": "Enabling Public Cameras to Talk to the Public",
+         "anchor": "vp",
+         "href": "docs/vp/he-wang-phade-system-to-identify-people-based-on-gestures.pdf",
+         "author": "Cao and Wang",
+         "date":   "2018"
+        },
+        {
+         "title": "The Pothole Patrol: Using a Mobile Sensor Network forRoad Surface Monitoring",
+         "anchor": "ot",
+         "href": "docs/ot/mit-madden-balakrishnan-pot-hole-p2-mobisys-2008.pdf",
+         "author": "Eriksson et al.,",
+         "date":   "2008"
+        },
+        {
+         "title": "Distributed Model-Free Ride-sharing Algorithmwith Pricing using Deep Reinforcement Learning",
+         "anchor": "ot",
+         "href": "docs/ot/marina-ecml-pkdd_2020.pdf",
+         "author": "PKDD",
+         "date":   "2020"
+        },
+        {
+         "title": "Surveillance Video Querying",
+         "anchor": "vp",
+         "href": "docs/vp/surveillance_video_querying_paper.pdf",
+         "author": "HILDA. Accepted",
+         "date":   "2020"
+        },
+        {
+         "title": "Surveillance Video Querying - [VIDEO]",
+         "anchor": "vp",
+         "href": "https://drive.google.com/file/d/1V4SJG1dPTofO6d5Qt1A56y1g1LH6VWgA/view",
+         "author": "HILDA",
+         "date":   "2020"
+        },
+        {
+         "title": "Surveillance Video Querying",
+         "anchor": "kg",
+         "href": "docs/vp/surveillance_video_querying_paper.pdf",
+         "author": "HILDA",
+         "date":   "2020"
+        },
+        {
+         "title": "Surveillance Video Querying - [VIDEO]",
+         "anchor": "kg",
+         "href": "https://drive.google.com/file/d/1V4SJG1dPTofO6d5Qt1A56y1g1LH6VWgA/view",
+         "author": "HILDA",
+         "date":   "2020"
+        },
+        {
+         "title": "YOLO Object Detection (TensorFlow tutorial)- [VIDEO]",
+         "anchor": "vp",
+         "href": "https://www.youtube.com/watch?v=4eIBisqx9_g",
+         "author": "Youtube",
+         "date":   "2020"
+        },
+        {
+         "title": "Soldier detection using SSDLite MobileNet V2 - [VIDEO]",
+         "anchor": "vp",
+         "href": "https://www.youtube.com/watch?v=qyGE0huNkD4&feature=youtu.be",
+         "author": "Youtube",
+         "date":   "2020"
+        }
+]
