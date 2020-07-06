@@ -1,0 +1,691 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CS 59000BB: Situation Awareness, Adversarial ML, and Explainable AI (Fall 2020)</title>
+
+  <!-- Created by: servio@palacios.com -->
+  <!-- v0.2.0 -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+</head>
+
+<div class="container">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">CS 590BB</a>
+      </div>
+
+      <!-- menu -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#description">Description</a></li>
+              <li><a href="#logistics">Class Logistics</a></li>
+              <li><a href="#lecture">Lecture Plan</a></li>
+              <li><a href="#grading">Grading</a></li>                          
+              <li class="divider"></li>
+              <li><a href="#readinglist">Reading List</a></li> 
+              <li><a href="#datasources">Data Sources</a></li> 
+              <li><a href="#additional">Additional sources</a></li>
+              <li class="divider"></li>
+              <li><a href="#late-policy">Late Policy</a></li>                      
+            </ul>
+          </li>
+          <li><a href="#office-hours">Office Hours</a></li>          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- header -->
+<div class="jumbotron">
+<h2>CS 59000BB: Situation Awareness, Adversarial ML, and Explainable AI</h2>
+<h3>Fall 2020, Tuesdays and Thursdays 4:30pm-5:45pm, TBA</h3> 
+<h3>Instructor: Prof. Bharat Bhargava. email: bbshail AT purdue.edu</h3>  
+<p class="lead">Class repository: <a href="">CS590BB Drive</a></p>
+</div>
+
+<!-- class description -->
+<div class="panel panel-default">
+  <div class="panel-heading">Description</div>
+  <div class="panel-body">
+    <a name="description"></a>
+<p>
+Develop tools and systems that apply ML to real applications on real data and try to deal with attacks and explain the decisions of AI powered decision making. In addition, the seminar will discuss methods to make these tools more efficient and more accessible. 
+  </div>
+</div>
+
+<!-- teaching material -->
+<div class="panel panel-default">
+  <div class="panel-heading">Teaching Material</div>
+  <div class="panel-body">
+    <a name="teachingmaterial"></a>
+
+    <p>The class provides insights about: </p>
+
+<ul>
+  <li>Multi-modal data fusion, knowledge graphs, modeling context and situation awareness, user profiling, and matching interests with streaming data ( sensors, text, tweets, video, news articles, emails, phone calls), pattern recognition, data mining, intelligent query processing. Machine learning models to connect user's needs with data based on situation and context awareness.
+  </li>
+
+  <li>
+    Privacy-enabling frameworks for situational-aware systems. Representing networks and knowledge graphs using graph databases, graph analytics for enhancing search.
+  </li>
+
+  <li>
+  Machine learning in data cleaning, video data understanding, and data mining and identifying objects and events. Modeling user queries to build knowledge graphs to target data to users. 
+  AutoML and self-supervised learning: Deep learning to accelerate the labeling of data and carefully tune hyper-parameters. Learn automatically and learn on unlabeled data to make machine learning accurate and efficient. Labeling and learning with incomplete or limited data.
+  </li>
+
+  <li>
+  Joint Modeling (Language Modeling, Multi-modal modeling, User Modeling), Open Information Extraction, Attribute Extraction, Relation Extraction, Similarity Learning, Graph Similarity, Pedestrian Attribute and Action Recognition, Intent Classification. The use of tweets as the people's information to visualize topic modeling, study subjectivity, and model the human emotions during the COVID-19 pandemic. Sharing information (e.g., personal opinions, some facts, news, status, etc.) on social media platforms, which can be helpful to understand the various public behavior such as emotions, sentiments, and mobility during the ongoing pandemic and police encounters. Deep Learning approach for tweet classification for disaster management. Hierarchical deep learning model using text embedding via Crisis and GloVe, bidirectional LSTM (BLSTM), attention, and convolution layers.
+  </li>
+
+  <li>
+  Attacks on ML models, training data, and streaming data. Preserving privacy and security by monitoring attacks, mitigating attacks, dealing with changing behavior of adversary, collaborative attacks, predicting attacks, and intent. Deep learning-based Programming Language Processing for Detecting Evasive Cyber-attacks, Trusted Classification under Poisoning attacks using Semantic Factors. Bias and Fairness in ML, what fairness means, causes that introduce unfairness in ML, Data-driven methods that unintentionally encode existing human biases and introduce new ones.
+  </li>
+
+  <li>
+  Defensive methods to protect Deep Neural Networks (DNNs). 
+  </li>
+
+  <li>
+  The success DNNs in image-related applications is threatened by their vulnerability to adversarial settings, including trojan and adversarial sample attacks. A detailed explanation of these types of attacks and countering methods are covered.
+  </li>
+
+  <li>
+  Insider threats are considered one of the most serious and difficult problems to solve, given the privileges and information available to insiders to launch different types of attacks. Current security systems can record and analyze sequences from a deluge of log data, potentially becoming a tool to detect insider threats. The issue is that insiders mix the sequence of attack steps with valid actions, reducing the capacity of security systems to discern long sequences and programmatically detect the executed attacks. M Deep learning-based methods are introduced, which overcome the existing limitations and protect against these types of attacks.
+  </li>
+
+  <li>
+  Monitoring and learning of attacks on autonomous systems and cyber attribution. 
+  </li>
+
+  <li>
+  Enhancing Cognitive Autonomy through Deep learning. Autonomous systems, explanation of ML, and actions of autonomous activity with humans in the loop.
+  </li>
+
+  <li>
+  Attacks on space system protocols that use moving target defense and utilizing ML to identify intent and devising methods to mitigate.
+  </li>
+
+  <li>
+  Graph machine learning, graph structure to understand the social network and extract useful information to analyze social relationships. 
+  </li>
+
+  <li>
+  Building recommendation systems. Deep learning in trading: Deep learning to track the market and make trading decisions.
+  </li>
+
+  <li>
+  Privacy-preserving predictive modeling in edge networks, privacy issues in ML used in contact tracing.
+  </li>
+
+</ul>
+
+  </div>
+</div>
+
+<!-- class logistics -->
+<div class="panel panel-default">
+  <div class="panel-heading">Class Logistics</div>
+  <div class="panel-body">
+	  <a name="logistics"></a>
+    <p> <b>Class Format</b>
+    <ul>
+    <li><p>This is a seminar course. Each class will consist of presentations and discussions. Students will be required to do a class project for the course. A significant portion of the grade will be based on projects and class/research contributions, including paper presentations, contributions to paper reviews, and paper discussions. 
+    </p></li>
+    </ul>
+    </p>
+	  <p> <b>Prerequisites</b>
+	  <ul>
+		<li><p>Background in databases, algorithms, machine learning [suggested].</p></li>
+	  </ul>
+	  </p>    
+<p>
+  <b>Assignments</b>
+      <ul>
+        <li>
+          Students will read/present papers and get involved in ongoing projects at Purdue. There will be a reading list of mandatory and optional papers. Each student can bid for four papers (two mandatory and two optional) to read/present, and then a randomized algorithm will do the final assignment (at least two papers per student).
+        </li>
+        <li>Questions and Responses (QRs): During each class you will need to provide <b>three</b> questions in writing for each (mandatory) paper. Questions will be <b>individual assignments</b>. For each class one of you will be responsible to lead a discussion on the papers and provide answers to all questions provided during class. Questions and responses will then be summarized in a written report which will be submitted and shared with everyone in the class. 
+        </li>
+      </ul>            
+</p>
+
+<p>
+
+  <b>Project</b>
+    <ul>
+      <li>A research class project: Each of you will work on a research project and file a single submission. The project will be broken down into three assignments: (1) initial research proposal, (2) intermediate report, (3) final report, and presentation.
+      </li>
+    	<li> Feel free to discuss your ideas with the instructor and propose your own project. However, the project you propose <b>HAS</b> to be associated with the material in the class. This is very important, and it is not up for discussion. The project should have a research component.  Project ideas will be outlined in class, but you are responsible for proposing your project. Some background reading is associated with each project.
+    The project proposal (due date October 5) should contain the following information:
+    <ul>
+      <li>Topic to be addressed and the nature of the problem
+      <li>State of the art (prior work, what remains unsolved, etc.)
+      <li>The proposed technique to be implemented/evaluated
+      <li>To what degree the project will repeat existing work
+      <li>Specific, measurable goals: deliverables, and dates you expect to produce them
+    </ul>
+        Project proposals should be a couple of pages at most. A project status report is due on November 2nd. 
+    		The status report should include a description of progress to date and what is expected to be accomplished by 
+    		the final project presentation day.
+      </li>
+  </ul>
+</p>
+
+<p>
+   <b>Exams</b>
+   <ul>
+
+     <li>There will be midterm and final exams (TBA).</li>
+
+   </ul>
+
+</p>
+<p><b>Misc</b>
+    <ul>
+      <li>Class time may be adjusted to accomodate external talks releated to the class.</li>      
+      <li>Google drive for deliverables: <a href="">CS590BB Drive</a></li>
+    </ul>
+</p>
+
+
+</div>
+</div>
+
+<!-- lecture plan -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">Tentative Lecture Plan (Subject to Change)</h2>
+  </div>
+  <div class="panel-body">
+    <a name="lecture"></a>    
+    <p>
+    <hr /> 
+
+<table class="table table-striped">
+  <tbody>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Lecture Materials</th>
+      <th>Reading Material</th>
+    </tr>
+	  
+    <tr>
+      <td>1</td>
+      <td>8/25</td>
+      <td>Logistics and Review of Situation Awareness, Adversarial ML, and Explainable AI</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 1</a> 
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Background: <br></li>
+          <li>Countering Adversarial AI/ML and Threat Recognition with Deep Learning</li>
+          <li>Situational Knowledge on Demand (REALM)</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>8/27</td>
+      <td>Overview of Security and Privacy in Machine Learning</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 2</a> 
+      </td>      
+      <td class="side-borders">
+        <ul>
+           <li>What are the Unique Challenges and Opportunities in Systems for ML? [Presentation slides]</li>
+           <li>Security and Privacy in Machine Learning [Presentation slides]</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>9/1</td>
+      <td>Overview in Knowledge Graphs and Ontologies</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 3</a>      
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Knowledge Graphs: An Accessible and Applied Overview</li>
+    	    <li>Knowledge Graphs Research at USC</li>
+          <li>Final assignment for papers and presentations defined</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>9/3</td>
+      <td>Query Optimization and Entity Resolution</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 4</a>      
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #1</li>
+      		<li>Assignment #1 due</li>
+          <li>Entity Matching: How Similar is Similar VLDB 2011 (mandatory) </li>
+          <li>Learning State Representations for Query Optimization With Deep Reenforcement Learning DEEM 2018 (mandatory)</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>9/8</td>
+      <td>Entity Resolution</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 5</a>  
+      </td>      
+      <td class="side-borders">
+        <ul>
+           <li>Paper presentation #2</li> 
+           <li>Entity Resolution Tutorial</li>
+          <li>Deep Learning for Entity Matching a design space exploration, SIGMOD 2018 (mandatory)</li>
+        </ul>
+      </td> 
+    </tr>    
+
+    <tr>
+      <td>6</td>
+      <td>9/10</td>
+      <td>ER Explanations</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 6</a>      
+      </td>      
+      <td class="side-borders">
+        <ul>
+           <li>Paper presentation #3</li> 
+          <li>Why should I trust you? Explaining the predictions of any classifier, KDD 2016 (mandatory)</li> 
+          <li>On the robustness of interpredibility methods (mandatory) </li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>7</td>
+      <td>9/15</td>
+      <td>ER Explanations</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 7</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #4</li> 
+          <li>Towards robust interpretability with self-explaining neural networks </li>
+          <li>Interpreting deep learning models for entity resolution: an experience report using LIME (mandatory) </li>
+         
+        </ul>
+      </td> 
+    </tr>
+
+
+    <tr>
+      <td>8</td>
+      <td>9/17</td>
+      <td>ER Explanations</td>
+      <td class="side-borders">
+      <!-- Lecture -->
+      <a href=""><a href="">Lecture 8</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #5</li> 
+      		 <li>ExplainER: Entity Resolution Explanations</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>9</td>
+      <td>9/22</td>
+      <td>Data Management For Video Streams</td>
+      <td class="side-borders">
+      <!-- Lecture -->       
+      <a href=""><a href="">Lecture 9</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #6</li> 
+      		<li>NoScope: Optimizing Neural Network Queries over Video at Scale, VLDB 2017 (mandatory)</li>
+      		<li>BlazeIt: Fast Exploratory Video Queries using Neural Networks (mandatory)</li>
+          <li>Surveillance Video Querying (mandatory)</li>
+          <li>Surveillance Video Querying [Demo]</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>10</td>
+      <td>9/24</td>
+      <td>Data Management For Video Streams</td>
+      <td class="side-borders">
+      <!-- Lecture -->       
+      <a href=""><a href="">Lecture 10</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #7</li> 
+          <li>Assignment #2 due</li> 
+          <li>Video Monitoring Queries (mandatory)</li>
+          <li>SVG: Streaming Video Queries, SIGMOD 2019 (optional)</li>
+          <li>Challanges and Opportunities in DNN based Video Analytics CIDR 2019 (optional)</li>
+          <li>Focus: Querying Large Video Datasets with Low Latency and Low Cost, OSDI 2016 (optional) </li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>11</td>
+      <td>9/29</td>
+      <td>Adversarial Machine Learning</td>
+      <td class="side-borders">
+      <!-- Lecture -->       
+      <a href=""><a href="">Lecture 11</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #8</li> 
+          <li>Adversarial Machine Learning (mandatory)</li>
+          <li>Practical Black-Box Attacks against Machine Learning (mandatory)</li>
+          <li>Countering Adversarial AI/ML and Threat Recognition with Deep Learning (mandatory)</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>12</td>
+      <td>10/1</td>
+      <td>Adversarial Machine Learning</td>
+      <td class="side-borders">
+      <!-- Lecture -->       
+      <a href=""><a href="">Lecture 12</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Paper presentation #9</li> 
+          <li>A Snapshot of the Frontiers of Fairness in Machine Learning (mandatory)</li>
+          <li>Techniques for Interpretable Machine Learning (mandatory)</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>13</td>
+      <td>10/6</td>
+      <td>Project proposals - presentations</td>
+      <td class="side-borders">
+      <!-- Lecture -->       
+      <a href=""><a href="">Lecture 13</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+          <li>Project Proposals due</li> 
+          <li>A brief explanation of each student proposal is required</li>
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>19</td>
+      <td>~12/1</td>
+      <td>Project Presentations</td>
+      <td class="side-borders">
+      <!-- Lecture -->      
+       <a href=""><a href="">Lecture 19</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+            
+        </ul>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>20</td>
+      <td>~12/3</td>
+      <td>Project Presentations</td>
+      <td class="side-borders">
+      <!-- Lecture -->      
+       <a href=""><a href="">Lecture 20</a>
+      </td>      
+      <td class="side-borders">
+        <ul>
+            
+        </ul>
+      </td> 
+    </tr>
+
+  </tbody>
+</table>
+
+</p>
+</div>
+</div> 
+
+
+<!-- grading -->
+<div class="panel panel-default">
+  <div class="panel-heading">Grading</div>
+  <div class="panel-body">
+	  <a name="grading"></a>
+<p>
+
+      <b>Summary of weights per category</b>
+      <br/>
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Minimal mark</th>
+            <th scope="col">Moderate mark</th>
+            <th scope="col">High mark</th>
+          </tr>
+        </thead>
+          <tbody>
+        <tr>
+          <td><b>Examination</b> <br/></td>
+          <td>&nbsp; 15% &nbsp;</td>
+          <td>Limited knowledge about covered material</td>
+          <td>Knowledge about presented papers</td>
+          <td>Knowledgable about fundamentals and mandatory material</td>
+        </tr>
+        <tr>
+          <td><b>Research paper/report</b></td>
+          <td>&nbsp; 10%</td>
+          <td>Unambitious and/or badly planned/written</td>
+          <td>Partially implemented, limited documentation with relevant findings</td>
+          <td>Top-tier conference/journal level. Formally written with key learning points and findings presented</td>
+        </tr>
+        <tr>
+          <td><b>Five or Six assignments</b>
+          </td>
+          <td>&nbsp; 25%</td>
+          <td>Unambitious and/or badly planned/written</td>
+          <td>Partially finished with insightful remarks</td>
+          <td>Insightful comments, analysis, or research questions</td>
+        </tr>
+        <tr>
+          <td><b>Class participation and discussion</b></td>
+          <td>&nbsp; 10%</td>
+          <td>Present</td>
+          <td>Attend most of the lectures, Talkative</td>
+          <td>Attend <b>all</b> lectures, insightful comments or questions</td>
+        </tr>
+        <tr>
+          <td class="header"><b>Class presentations</b></td>
+          <td>&nbsp; 10%</td>
+          <td>Factually correct</td>
+          <td>Designed and delivered well</td>
+          <td>Transmits effectively key points, implications, etc.</td>
+        </tr>
+        <tr>
+          <td class="header"><b>Projects</b></td>
+          <td>&nbsp; 30%</td>
+          <td>Unambitious and/or badly planned</td>
+          <td>Partially implemented and/or poorly presented</td>
+          <td>Implemented successfully with key learning points presented, demo</td>
+        </tr>
+          </tbody>
+      </table>
+    
+</p>
+
+  </div>
+</div>
+
+<!-- reading list -->
+<div class="panel panel-default">
+  <div class="panel-heading">Reading List</div>
+  <div class="panel-body">
+  <a name="readinglist"></a>
+<p>
+
+      <p class="lead">Machine Learning</p>
+      <ul id="ml"></ul>
+
+      <p class="lead">Adversarial Machine Learning</p>
+      <ul id="at"></ul>
+
+      <p class="lead">Situational Knowledge and Knowledge Graphs</p>
+      <ul id="kg"></ul>
+
+      <p class="lead">Entity Resolution</p>
+      <ul id="er"></ul>
+
+      <p class="lead">Entity Resolution Explanations</p>
+      <ul id="erex"></ul>
+
+      <p class="lead">Video Processing</p>
+      <ul id="vp"></ul>
+
+      <p class="lead">Data Management For Video Streams</p>
+      <ul id="dm"></ul>
+
+      <p class="lead">Attacks and Privacy in Distributed Systems</p>
+      <ul id="pr"></ul>
+
+      <p class="lead">Talks</p>
+      <ul id="tk"></ul>
+
+      <p class="lead">Covid-19 Conference</p>
+      <ul id="co"></ul>
+    
+</p>
+
+  </div>
+</div>
+
+<!-- data sources -->
+<div class="panel panel-default">
+  <div class="panel-heading">Data Sources</div>
+  <div class="panel-body">
+  <a name="datasources"></a>
+  <p>
+
+      <ul>
+        <li><a href="https://snap.stanford.edu/data/">SNAP</a></li>
+        <li><a href="http://openag.io/">OpenAG Data Alliance (OADA)</a></li>
+        <li><a href="https://engineering.purdue.edu/VIP/teams/cam2">Videos from NYC</a></li>
+      </ul>
+    
+  </p>
+
+  </div>
+</div>
+
+<!-- additional sources of knowledge -->
+<div class="panel panel-default">
+  <div class="panel-heading">Additional sources of knowledge</div>
+  <div class="panel-body">
+  <a name="additional"></a>
+  <p>
+      Outside speakers from MIT, CMU, Northrop Grumman, Sandia, Missouri Institute of Science and Technology, EPFL, University of Bern and Purdue (ECE, IE, CS) have been invited. 
+  </p>
+
+  <p> 
+    Dawn project at Stanford https://dawn.cs.stanford.edu/
+  </p>
+
+  </div>
+</div>
+
+<!-- office hours -->
+<div class="panel panel-default">
+  <div class="panel-heading">Office Hours</div>
+  <div class="panel-body">
+    <a name="office-hours"></a>
+    <p>TA: By Appointment:</p>    
+    <p>Professor Bhagava: Office: LWSN 2116F TBA and by appointment.
+</div>
+</div>
+
+<!-- late policy and deliverables -->
+<div class="panel panel-default">
+  <div class="panel-heading">Late Policy and Deliverables</div>
+  <div class="panel-body">.
+	  <a name="late-policy"></a>
+There will be <b>no late dates for the project deliverables</b> and no late dates for in class questions. Extensions may be granted in the case of a severe medical or family emergency.
+  </div>
+</div>
+
+<!-- old web-page -->
+<div class="panel panel-default">
+  <div class="panel-heading">Old web page</div>
+  <div class="panel-body">
+    <a name="old"></a>
+    <a href="./index-old.html">Old web page</a>
+  </div>
+</div>
+
+<!-- credit -->
+<div class="panel panel-default">
+  <div class="panel-heading">Credit</div>
+  <div class="panel-body">  
+    The template of this website was created by: HazyReseach@Stanford
+    Modified by: <b>servio@palacios.com</b>.
+  </div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="js/loaddata.js"></script>
+</body>
+
+</html>
