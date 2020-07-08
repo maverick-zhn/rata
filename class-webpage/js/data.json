@@ -104,6 +104,13 @@
          "author": "Hsieh et al.",
          "date":   "OSDI, 2018"
         },
+         {
+         "title": "Situational Knowledge On Demand (SKOD) [Presentation Slides]",
+         "anchor": "kg",
+         "href": "docs/kg_Final-TechFEST-slides-BharatBhargava-Purdue-SKOD.pdf",
+         "author": "Bhargava",
+         "date":   "NGC Tech Fest, 2019"
+        },
 	{
          "title": "Situational Knowledge on Demand (REALM)",
          "anchor": "kg",
@@ -368,14 +375,14 @@
          "anchor": "at",
          "href": "docs/at/Fairness_in_ML.pdf",
          "author": "Chouldechova and Roth",
-         "date":   "2020"
+         "date":   "CACM, 2020"
         },
 	{
          "title": "A Snapshot of the Frontiers of Fairness in Machine Learning [Video]",
          "anchor": "at",
          "href": "https://www.youtube.com/watch?v=ByRLBXjDHlc",
          "author": "Chouldechova and Roth",
-         "date":   "2020"
+         "date":   "CACM, 2020"
         },
 	{
          "title": "Techniques for Interpretable Machine Learning",
@@ -453,5 +460,117 @@
          "href": "https://www.youtube.com/watch?v=qyGE0huNkD4&feature=youtu.be",
          "author": "Youtube",
          "date":   "2020"
+        },
+        {
+         "title": "Autonomous Defensive Cyber Operations (ADCO) [White Paper]",
+         "anchor": "ot",
+         "href": "docs/ot_Autnomous-Defnsive-Cyber-Operations-DoD-white-paper-request.pdf",
+         "author": "Broad Agency Announcement",
+         "date":   "2019"
+        },
+        {
+         "title": "Detecting Poisoning Attacks on Machine Learning in IoT Environments [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Baracaldo_ICIOT.pdf",
+         "author": "Baracaldo et al.",
+         "date":   "2019"
+        },
+        {
+         "title": "Breaking Transferability of Adversarial Samples with Randomness [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Bowei-Xi-Adversarial-ML.pdf",
+         "author": "Zhou, Kantarcioglu, and Xi",
+         "date":   "arXiv, 2018"
+        },
+        {
+         "title": "Learning Informative and Private Representations via Generative Adversarial Networks [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Brinton-18bigdata-2.pdf",
+         "author": "Zhou, Kantarcioglu, and Xi",
+         "date":   "IEEE ICBD, 2018"
+        },
+        {
+         "title": "F-BLEAU: Fast Black-box Leakage Estimation [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Giovanni-EPFL-Leakage.pdf",
+         "author": "Cherubin, Chatzikokolakis, and Palamidessi",
+         "date":   "arXiv, 2019"
+        },
+        {
+         "title": "Intelligent Autonomous Systems based on Data Analytics and Machine Learning [Presentation Slides]",
+         "anchor": "at",
+         "href": "docs/at_JPL-Bhargava-IAS-Slides-June-26th.pdf",
+         "author": "Bhargava",
+         "date":   "NGCRC, 2018"
+        },
+        {
+         "title": "Explaining Explanations: An Approach to Evaluating Interpretability of Machine Learning [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Lalana-Explainations-of-IAS.pdf",
+         "author": "Gilpin et al.",
+         "date":   "arXiv, 2018"
+        },
+        {
+         "title": "Trustworthy Autonomous Systems [Presentation Slides]",
+         "anchor": "at",
+         "href": "docs/at_Lalana-NGCRC-SS-April-2019.pdf",
+         "author": "Kagal et al.",
+         "date":   "MIT, 2018"
+        },
+        {
+         "title": "Trustworthy Autonomous Systems [Abstract]",
+         "anchor": "at",
+         "href": "docs/at_Lalana-NGCRC-SS-April-2019.pdf",
+         "author": "Kagal et al.",
+         "date":   "MIT, 2018"
+        },
+        {
+         "title": "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation [Presentation Slides]",
+         "anchor": "at",
+         "href": "docs/at_Malicious-Uses-of-AI.pdf",
+         "author": "Brundage et al.",
+         "date":   "University of Oxford, 2018"
+        },
+        {
+         "title": "Domain-Specific Knowledge Graph Construction [Book]",
+         "anchor": "kg",
+         "href": "docs/kg_Mayank-book-Domain-Specific+Knowledge+Graph+Construc.pdf",
+         "author": "Kejriwal et al.",
+         "date":   "Springer, 2018"
+        },
+        {
+         "title": "A Demo of the Data Civilizer System [Paper]",
+         "anchor": "kg",
+         "href": "docs/kg_MIT_sigmod2017-civilizer.pdf",
+         "author": "Fernandez et al.",
+         "date":   "SIGMOD, 2017"
+        },
+        {
+         "title": "NGCRC Paper Abstracts  [Abstract]",
+         "anchor": "at",
+         "href": "docs/at_NGCRC-Papers-Abstract-Bhargava-Mani-Miguel.pdf",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2019"
+        },
+        {
+         "title": "Algorithms that Remember: Model Inversion Attacks and Data Protection Law [Paper]",
+         "anchor": "at",
+         "href": "docs/at_Oxford-paper-on-ML-security.pdf",
+         "author": "Veale, Binns, and Edwards",
+         "date":   "Oxford University, 2018"
+        },
+        {
+         "title": "A Game Theoretic Approach for Adversarial Machine Learning: Big Data Meets Cyber Security [Presentation Slides]",
+         "anchor": "at",
+         "href": "docs/at_Xi-advl-talk-50min.pdf",
+         "author": "Xi",
+         "date":   "Purdue University, 2019"
+        },
+         {
+         "title": "Assisting West Lafayette police in identifying persons who are differently abled [Presentation Slides]",
+         "anchor": "ot",
+         "href": "docs/ot_Police-and-Disability-Interaction.pdf",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2019"
         }
 ]

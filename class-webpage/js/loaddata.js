@@ -18,13 +18,13 @@ loadJSON(function(response) {
     var data = JSON.parse(response);
     for(var i=0; i<data.length; i++) {
         var list = document.getElementById(data[i].anchor);
-	var _item = document.createElement('a');
-	_item.href = data[i].href;
-	_item.innerText = data[i].title ;
-	var entry = document.createElement('li');
-	entry.appendChild(_item);
-	entry.appendChild(document.createTextNode(", " + data[i].author + ", " + data[i].date + "."));
-	list.appendChild(entry);
+      	var _item = document.createElement('a');
+      	_item.href = data[i].href;
+      	_item.innerText = data[i].title ;
+      	var entry = document.createElement('li');
+      	entry.appendChild(_item);
+      	entry.appendChild(document.createTextNode(", " + data[i].author + ", " + data[i].date + "."));
+      	list.appendChild(entry);
     }
 });
 
