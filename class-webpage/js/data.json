@@ -414,7 +414,7 @@
         },
         {
          "title": "Distributed Model-Free Ride-sharing Algorithmwith Pricing using Deep Reinforcement Learning",
-         "anchor": "ot",
+         "anchor": "sn",
          "href": "docs/ot/marina-ecml-pkdd_2020.pdf",
          "author": "PKDD",
          "date":   "2020"
@@ -572,5 +572,26 @@
          "href": "docs/ot_Police-and-Disability-Interaction.pdf",
          "author": "Bhargava",
          "date":   "Purdue University, 2019"
+        },
+        {
+         "title": "Situational Knowledge on Demand: Information Extraction from Multimodal Data for Knowledge Graph Construction [Abstract]",
+         "anchor": "kg",
+         "href": "docs/kg_Alina-Knowledge-graph.pdf",
+         "author": "Nesen",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Multimodal Data Knowledge Representation for Situational Awareness: Domain-agnostic Approach With Evolving Knowledge Graphs [Abstract]",
+         "anchor": "kg",
+         "href": "docs/kg_Alina-SKOD_KG_Evolving_KGs.pdf",
+         "author": "Nesen",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Domain Independent Schema and Knowledge Modeling for Delivering Mission Relevant Multimodal Content to User [Abstract]",
+         "anchor": "kg",
+         "href": "docs/kg_Solaiman-draft-DISK_Jun_24.pdf",
+         "author": "Solaiman",
+         "date":   "Purdue University, 2020"
         }
 ]
