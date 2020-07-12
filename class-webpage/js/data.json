@@ -593,5 +593,12 @@
          "href": "docs/kg_Solaiman-draft-DISK_Jun_24.pdf",
          "author": "Solaiman",
          "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Neural Representation Learning for Semi-Supervised Node Classification and Explainability [PhD defense]",
+         "anchor": "ml",
+         "href": "docs/at_slide-hpark-final-exam.pdf",
+         "author": "Park",
+         "date":   "Purdue University, 2020"
         }
 ]
