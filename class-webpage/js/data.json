@@ -311,8 +311,8 @@
          "title": "Privacy-Preserving Secure Contact Tracing",
          "anchor": "tk",
          "href": "docs/co/madhu-venkat-paper-contact-privacy.pdf",
-         "author": "Madhusudan, Ren, Venkatakrishnan",
-         "date":   "2020"
+         "author": "Vishnu S. Penubarthi and Lalana Kagel",
+         "date":   "MIT, 2020"
         },
         {
          "title": "Malware Speaks! Deep Learning Based Programming Language Processing for Detecting Evasive Cyberattacks",
@@ -600,5 +600,19 @@
          "href": "docs/at_slide-hpark-final-exam.pdf",
          "author": "Park",
          "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Privacy Preserving Predictive Modeling in Edge Networks [Seminar]",
+         "anchor": "ml",
+         "href": "https://arxiv.org/pdf/2004.08488.pdf",
+         "author": "Brinton",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Network-Aware Optimization of Distributed Learning for Fog Computing [Paper]",
+         "anchor": "ml",
+         "href": "https://arxiv.org/pdf/2004.08488.pdf",
+         "author": "Brinton",
+         "date":   "arXiv, 2020"
         }
 ]
