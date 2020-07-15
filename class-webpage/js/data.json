@@ -614,5 +614,12 @@
          "href": "https://arxiv.org/pdf/2004.08488.pdf",
          "author": "Brinton",
          "date":   "arXiv, 2020"
+        },
+        {
+         "title": "Towards Trustworthy Autonomous Systems [Presentation Slides]",
+         "anchor": "ml",
+         "href": "docs/at_towards_trustworthy_autonomous_systems.pdf",
+         "author": "Vishnu Penubarthi",
+         "date":   "MIT, 2020"
         }
 ]
