@@ -621,5 +621,47 @@
          "href": "docs/at_towards_trustworthy_autonomous_systems.pdf",
          "author": "Vishnu Penubarthi",
          "date":   "MIT, 2020"
+        },
+        {
+         "title": "Amazon SageMaker Machine learning for every developer and data scientist [Video]",
+         "anchor": "ml",
+         "href": "https://tinyurl.com/yyjs4wp3",
+         "author": "Amazon",
+         "date":   "2020"
+        },
+        {
+         "title": "A Beginner's Guide to Neural Networks and Deep Learning [Wiki]",
+         "anchor": "ml",
+         "href": "https://pathmind.com/wiki/neural-network",
+         "author": "PathMind",
+         "date":   "2020"
+        },
+        {
+         "title": "The Ghost in the Machine: Reconciling AI and Trust in the Connected World [Talk - Wednesday, Jul 22, 2020 1:00pm ET]",
+         "anchor": "ce",
+         "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/summer",
+         "author": "CERIAS",
+         "date":   "2020"
+        },
+        {
+         "title": "Value of Cyber Threat Intelligence in Modern Security Operations [Talk - Wednesday, Aug 12, 2020 1:00pm ET]",
+         "anchor": "ce",
+         "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/summer",
+         "author": "CERIAS",
+         "date":   "2020"
+        },
+        {
+         "title": "Trusting Autonomous Cars [Talk]",
+         "anchor": "ce",
+         "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/summer",
+         "author": "CERIAS",
+         "date":   "07/08/2020"
+        },
+        {
+         "title": "Using Machine Learning for Network Intrusion Detection [Talk]",
+         "anchor": "ce",
+         "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/summer",
+         "author": "CERIAS",
+         "date":   "06/24/2020"
         }
 ]
