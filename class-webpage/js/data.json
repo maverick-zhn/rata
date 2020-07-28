@@ -235,7 +235,7 @@
          "anchor": "tk",
          "href": "docs/tk/mit-talk-purdue.pptx",
          "author": "Cao",
-         "date":   "Purdue University, 2020"
+         "date":   "MIT, 2020"
         },
         {
          "title": "Research in Applications for Learning Machines (REALM) Consortium, SKOD",
@@ -312,7 +312,7 @@
          "anchor": "tk",
          "href": "docs/co/madhu-venkat-paper-contact-privacy.pdf",
          "author": "Vishnu S. Penubarthi and Lalana Kagel",
-         "date":   "MIT, 2020"
+         "date":   "UIUC, 2020"
         },
         {
          "title": "Malware Speaks! Deep Learning Based Programming Language Processing for Detecting Evasive Cyberattacks",
@@ -663,5 +663,19 @@
          "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/summer",
          "author": "CERIAS",
          "date":   "06/24/2020"
+        },
+        {
+         "title": "Deep Learning-Based Models for Cognitive Autonomy and Security in Cyber Systems [Ph.D. defense]",
+         "anchor": "at",
+         "href": "",
+         "author": "Mani",
+         "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Deep Learning-Based Models for Cognitive Autonomy and Security in Cyber Systems [Dissertation Summary]",
+         "anchor": "at",
+         "href": "",
+         "author": "Mani",
+         "date":   "Purdue University, 2020"
         }
 ]
