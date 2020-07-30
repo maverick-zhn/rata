@@ -5,6 +5,8 @@ Are you looking for an easy way to start your Professor's class website?
 
 This web-portal is meant to be an uncomplicated way to start with a simple page for a class.
 
+[Live demo](https://www.cs.purdue.edu/homes/bb/2020-fall-cs590bb/)
+
 It includes the different necessary sections such as
 * Description
 * Teaching Material
