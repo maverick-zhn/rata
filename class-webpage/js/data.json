@@ -677,5 +677,12 @@
          "href": "docs/at_Mani_Dissertation_Summary.pdf",
          "author": "Mani",
          "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Auditable Computations on (Un)Encrypted Graph-Structured Data [Ph.D. Defense]",
+         "anchor": "ot",
+         "href": "",
+         "author": "Palacios",
+         "date":   "Purdue University, 2020"
         }
 ]
