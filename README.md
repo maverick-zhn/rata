@@ -28,3 +28,6 @@ Please use it under the *AGPLv3* license.
 Please include an *Acknowledgement* in the content and code:
 ```The template of this website was created by servio@palacios.com```
 
+### JSON based database
+The website includes a JSON-based database for a list of papers or objects that you want to show in the main page.
+
