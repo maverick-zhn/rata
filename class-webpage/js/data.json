@@ -476,6 +476,13 @@
          "date":   "2019"
         },
         {
+         "title": "Adversarial Machine Learning",
+         "anchor": "at",
+         "href": "docs/at_Nathalia-Baracaldo-attack-AI-ML.docx",
+         "author": "Baracaldo et al.",
+         "date":   "2019"
+        },
+        {
          "title": "Breaking Transferability of Adversarial Samples with Randomness [Paper]",
          "anchor": "at",
          "href": "docs/at_Bowei-Xi-Adversarial-ML.pdf",
