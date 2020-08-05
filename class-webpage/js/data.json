@@ -691,5 +691,12 @@
          "href": "docs/servio_palacios_phd_defense_final_signed.pdf",
          "author": "Palacios",
          "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "CERIAS Seminars",
+         "anchor": "ot",
+         "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/",
+         "author": "CERIAS",
+         "date":   "Purdue University, 2020"
         }
 ]
