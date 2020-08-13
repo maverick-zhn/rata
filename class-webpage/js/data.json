@@ -698,5 +698,27 @@
          "href": "https://www.cerias.purdue.edu/news_and_events/events/security_seminar/",
          "author": "CERIAS",
          "date":   "Purdue University, 2020"
+        },
+        {
+         "title": "Fairness in ML",
+         "anchor": "at",
+         "href": "docs/Fairness-in-ML.pdf",
+         "author": "Chouldechova and Roth",
+         "date":   "CACM, 2020"
+        },
+        {
+         "title": "Trustworthy Autonomous Systems",
+         "anchor": "at",
+         "href": "docs/Lalana-NGCRC-Explainable-AI-April-2019.pdf",
+         "author": "Lalana",
+         "date":   "MIT, 2020"
+        },
+        {
+         "title": "Sail-on DARPA",
+         "anchor": "ml",
+         "href": "docs/Sail-on-Darpa.docx",
+         "author": "Bhargava",
+         "date":   "Purdue University, 2020"
         }
+       
 ]
