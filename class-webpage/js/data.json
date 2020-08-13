@@ -714,6 +714,13 @@
          "date":   "MIT, 2020"
         },
         {
+         "title": "Progress Toward Safe and Reliable AI",
+         "anchor": "at",
+         "href": "http://ai.stanford.edu/blog/reliable-ai/",
+         "author": "Eglash",
+         "date":   "Stanford, 2020"
+        },
+        {
          "title": "Sail-on DARPA",
          "anchor": "ml",
          "href": "docs/Sail-on-Darpa.docx",
