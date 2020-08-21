@@ -726,6 +726,13 @@
          "href": "docs/Sail-on-Darpa.docx",
          "author": "Bhargava",
          "date":   "Purdue University, 2020"
+        },  
+        {
+         "title": "A Friendly Introduction to Machine Learning",
+         "anchor": "ml",
+         "href": "https://www.youtube.com/watch?v=IpGxLWOIZy4&list=PL3fzxLma92-iTc8xSc83iAaK2R6g2nUVg&index=4",
+         "author": "Serrano",
+         "date":   "Udemy, 2020"
         }
        
 ]
