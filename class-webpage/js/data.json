@@ -733,6 +733,13 @@
          "href": "https://www.youtube.com/watch?v=IpGxLWOIZy4&list=PL3fzxLma92-iTc8xSc83iAaK2R6g2nUVg&index=4",
          "author": "Serrano",
          "date":   "Udemy, 2020"
+        },
+        {
+         "title": "Towards Effective Interpretation of Deep Neural Networks: Algorithms and Applications",
+         "anchor": "tk",
+         "href": "http://faculty.cs.tamu.edu/xiahu/",
+         "author": "Hu",
+         "date":   "Texas A&M University, 2020"
         }
        
 ]
