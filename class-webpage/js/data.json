@@ -308,11 +308,11 @@
          "date":   "2020"
         },
 	{
-         "title": "Privacy-Preserving Secure Contact Tracing",
+         "title": "Explainable AI",
          "anchor": "tk",
          "href": "docs/co/madhu-venkat-paper-contact-privacy.pdf",
          "author": "Vishnu S. Penubarthi and Lalana Kagel",
-         "date":   "UIUC, 2020"
+         "date":   "MIT, 2020"
         },
         {
          "title": "Malware Speaks! Deep Learning Based Programming Language Processing for Detecting Evasive Cyberattacks",
