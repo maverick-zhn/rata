@@ -740,6 +740,13 @@
          "href": "http://faculty.cs.tamu.edu/xiahu/",
          "author": "Hu",
          "date":   "Texas A&M University, 2020"
+        },
+        {
+         "title": "Trustworthy ML [Video]",
+         "anchor": "at",
+         "href": "https://youtu.be/UpGgIqLhaqo",
+         "author": "Papernot",
+         "date":   "University of Toronto, 2020"
         }
        
 ]
